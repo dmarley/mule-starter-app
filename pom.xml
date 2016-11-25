@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>1.2.3.RELEASE</version>
+        <version>1.2.8.RELEASE</version>
     </parent>
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.taptech.app</groupId>
@@ -20,8 +20,8 @@
         <mule.tools.version>1.2</mule.tools.version>
 		<jdk.version>1.8</jdk.version>
 		<junit.version>4.9</junit.version>
-        <spring.boot.version>1.2.3.RELEASE</spring.boot.version>
-        <start-class>org.taptech.app.MuleBootstrap</start-class>
+        <spring.boot.version>1.2.8.RELEASE</spring.boot.version>
+        <start-class>com.mdw360.app.MuleBootstrap</start-class>
 	</properties>
 
 	<build>
@@ -29,7 +29,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>1.2.3.RELEASE</version>
+                <version>1.2.8.RELEASE</version>
                 <configuration>
                     <mainClass>${start-class}</mainClass>
                 </configuration>
