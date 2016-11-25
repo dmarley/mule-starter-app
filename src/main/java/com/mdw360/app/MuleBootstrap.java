@@ -1,4 +1,4 @@
-package org.taptech.app;
+package com.mdw360.app;
 
 
 import org.mule.api.MuleContext;
@@ -26,7 +26,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.support.StaticApplicationContext;
 
 /**
- * Created by tap on 4/18/15.
+ *
  */
 @ComponentScan
 @Configuration

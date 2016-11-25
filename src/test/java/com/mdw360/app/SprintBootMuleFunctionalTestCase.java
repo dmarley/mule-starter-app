@@ -1,4 +1,4 @@
-package org.taptech.app;
+package com.mdw360.app;
 
 import org.mule.api.config.ConfigurationBuilder;
 import org.mule.config.spring.SpringXmlConfigurationBuilder;
@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.StaticApplicationContext;
 
 /**
- * Created by tap on 4/22/15.
+ *
  */
 public class SprintBootMuleFunctionalTestCase extends FunctionalTestCase {
 
